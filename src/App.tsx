@@ -8,6 +8,7 @@ export default function App() {
       </h1>
       <hr />
       <Home />
+      
     </>
   );
 }
