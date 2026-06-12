@@ -16,7 +16,7 @@ body:
     attributes:
       label: 📝 Descripción del bug
       description: Explica de forma clara y concisa cuál es el error.
-      placeholder: Ejemplo: Al hacer clic en "Guardar", la aplicación se cierra inesperadamente...
+      placeholder: Ejemplo- Al hacer clic en "Guardar", la aplicación se cierra inesperadamente...
     validations:
       required: true
 
