@@ -1,14 +1,12 @@
 import { Home } from "./Components/Home";
+import { Head } from "./Components/Head";
 
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Welcome to My landing page ✌️
-      </h1>
+    <div>
+      <Head />
       <hr />
       <Home />
-      
-    </>
+    </div>
   );
 }
