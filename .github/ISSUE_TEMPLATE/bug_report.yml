@@ -1,0 +1,139 @@
+name: 🐛 Reporte de bug
+description: Reporta un error o comportamiento inesperado
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees:
+  - equipo-de-soporte
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Gracias por reportar este problema
+        Por favor completa la siguiente información para ayudarnos a resolverlo lo más rápido posible.
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: 📝 Descripción del bug
+      description: Explica de forma clara y concisa cuál es el error.
+      placeholder: Ejemplo- Al hacer clic en "Guardar", la aplicación se cierra inesperadamente...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduccion
+    attributes:
+      label: 🔁 Pasos para reproducir
+      description: Indica paso a paso cómo podemos provocar el error.
+      placeholder: |
+        1. Ir a '...'
+        2. Hacer clic en '....'
+        3. Desplazarse hasta '....'
+        4. Ver el error
+      value: |
+        1. 
+        2. 
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: comportamiento_esperado
+    attributes:
+      label: ✅ Comportamiento esperado
+      description: ¿Qué debería haber sucedido en lugar del error?
+      placeholder: La aplicación debería haber guardado los datos y mostrar un mensaje de éxito.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impacto
+    attributes:
+      label: ⚠️ Impacto del bug
+      description: ¿Cómo afecta este error al uso normal?
+      options:
+        - Crítico (no permite usar la aplicación)
+        - Grave (afecta una funcionalidad principal)
+        - Moderado (afecta una funcionalidad secundaria)
+        - Menor (error estético o de muy baja prioridad)
+    validations:
+      required: true
+
+  - type: input
+    id: entorno
+    attributes:
+      label: 🌍 Entorno / URL
+      description: Si aplica, indica la URL o entorno donde ocurre (producción, staging, local)
+      placeholder: https://app.ejemplo.com/dashboard
+
+  - type: dropdown
+    id: navegador
+    attributes:
+      label: 🌐 Navegador
+      description: ¿En qué navegador ocurre?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Opera
+        - Otro
+    validations:
+      required: true
+
+  - type: input
+    id: version_navegador
+    attributes:
+      label: 📌 Versión del navegador
+      placeholder: Ej- 120.0.6099.71
+
+  - type: dropdown
+    id: sistema_operativo
+    attributes:
+      label: 💻 Sistema operativo
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - iOS
+        - Android
+        - Otro
+    validations:
+      required: true
+
+  - type: input
+    id: version_app
+    attributes:
+      label: 🔖 Versión de la aplicación / commit
+      description: Si conoces la versión o el hash del commit afectado
+      placeholder: v2.3.1 o commit 4a5b6c7
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📄 Logs o mensajes de error
+      description: Copia aquí cualquier mensaje de error visible en consola o logs
+      render: shell
+      placeholder: |
+        Error: Cannot read property 'x' of undefined
+        at Component.render (app.js:245)
+
+  - type: textarea
+    id: capturas
+    attributes:
+      label: 📸 Capturas de pantalla / videos
+      description: Si es posible, adjunta enlaces o describe visualmente el problema
+      placeholder: Arrastra imágenes o pega enlaces a grabaciones
+
+  - type: checkboxes
+    id: terminos
+    attributes:
+      label: ✅ Confirmación
+      description: Por favor confirma lo siguiente antes de enviar
+      options:
+        - label: He buscado si este bug ya fue reportado anteriormente
+          required: true
+        - label: He probado a reproducirlo en la última versión disponible
+          required: true
+        - label: Proporcionaré información adicional si me es solicitada
+          required: true
