@@ -2,7 +2,7 @@
 
 export default function Head() {
   return (
-    <header className="w-full bg-gradient-to-r from-blue-600 to-purple-600 py-8 shadow-lg">
+    <header className="w-full bg-linear-to-r from-purple-600 to-purple-800 py-8 shadow-lg">
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-white tracking-tight">
           Bienvenidos a nuestra Landing Page
