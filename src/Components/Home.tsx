@@ -29,7 +29,7 @@ export function Home() {
                     </span>
 
                     {/* Título Principal */}
-                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white drop-shadow-xl mb-6">
+                    <h1 className="fade-up text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white drop-shadow-xl mb-6">
                         Explora el mundo a tu <br className="hidden md:inline" /> propio ritmo e inteligencia.
                     </h1>
 
@@ -49,8 +49,10 @@ export function Home() {
                     </div>
                 </div>
                 
-                {/* Línea decorativa inferior */}
-                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-950 to-transparent"></div>
+                {/* SVG decorativo inferior */}
+                <svg className="absolute bottom-0 left-0 w-full" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                    <path d="M0,32L48,42.7C96,53,192,75,288,80C384,85,480,75,576,64C672,53,768,43,864,53.3C960,64,1056,96,1152,90.7C1248,85,1344,43,1392,21.3L1440,0L1440,100L1392,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z" fill="rgba(7,10,15,0.85)"></path>
+                </svg>
             </header>
 
             {/* ========================================== */}
