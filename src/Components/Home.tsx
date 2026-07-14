@@ -126,6 +126,79 @@ export function Home() {
                 </div>
             </section>
 
+            {/* ========================================== */}
+            {/* 🛠️ SECCIÓN: CÓMO FUNCIONA                    */}
+            {/* ========================================== */}
+            <section id="como-funciona" className="py-20">
+                <div className="container mx-auto px-6">
+                    <div className="text-center max-w-3xl mx-auto mb-12">
+                        <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">Cómo funciona</h2>
+                        <p className="text-slate-400">Tres pasos rápidos para planear tu viaje ideal con nuestra plataforma.</p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                        <div className="bg-slate-900/60 rounded-2xl p-6 text-center fade-up">
+                            <div className="text-4xl mb-4">🔎</div>
+                            <h3 className="font-semibold text-white mb-2">Explora</h3>
+                            <p className="text-slate-400">Busca destinos, guarda favoritos y filtra por intereses y presupuesto.</p>
+                        </div>
+                        <div className="bg-slate-900/60 rounded-2xl p-6 text-center fade-up" style={{animationDelay: '120ms'}}>
+                            <div className="text-4xl mb-4">🧭</div>
+                            <h3 className="font-semibold text-white mb-2">Organiza</h3>
+                            <p className="text-slate-400">Crea rutas optimizadas, añade paradas y personaliza la duración y horarios.</p>
+                        </div>
+                        <div className="bg-slate-900/60 rounded-2xl p-6 text-center fade-up" style={{animationDelay: '240ms'}}>
+                            <div className="text-4xl mb-4">⚡</div>
+                            <h3 className="font-semibold text-white mb-2">Reserva</h3>
+                            <p className="text-slate-400">Reserva servicios y sincroniza todo para usar offline durante tu viaje.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* ========================================== */}
+            {/* ❓ SECCIÓN: PREGUNTAS FRECUENTES (FAQ)       */}
+            {/* ========================================== */}
+            <section id="faq" className="py-12 bg-slate-900/30">
+                <div className="container mx-auto px-6 max-w-4xl">
+                    <h2 className="text-2xl font-bold text-white mb-6">Preguntas Frecuentes</h2>
+                    <div className="space-y-4">
+                        <details className="bg-slate-800/50 rounded-lg p-4" open>
+                            <summary className="cursor-pointer font-semibold text-white">¿Puedo usar la app sin conexión?</summary>
+                            <p className="mt-2 text-slate-300">Sí — las rutas y datos esenciales se sincronizan y permanecen disponibles offline.</p>
+                        </details>
+                        <details className="bg-slate-800/50 rounded-lg p-4">
+                            <summary className="cursor-pointer font-semibold text-white">¿Cómo protege la privacidad mis datos?</summary>
+                            <p className="mt-2 text-slate-300">Solo almacenamos lo necesario para tu experiencia; puedes eliminar datos en cualquier momento.</p>
+                        </details>
+                        <details className="bg-slate-800/50 rounded-lg p-4">
+                            <summary className="cursor-pointer font-semibold text-white">¿Ofrecen integración con mapas externos?</summary>
+                            <p className="mt-2 text-slate-300">Sí, la plataforma integra múltiples proveedores de mapas para rutas y navegación.</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            {/* ========================================== */}
+            {/* 🦶 FOOTER                                  */}
+            {/* ========================================== */}
+            <footer className="py-10">
+                <div className="container mx-auto px-6 max-w-6xl">
+                    <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+                        <div>
+                            <h3 className="text-xl font-bold text-white">TuRuta</h3>
+                            <p className="text-slate-400 text-sm">Planifica. Explora. Vive.</p>
+                        </div>
+                        <div className="flex gap-4">
+                            <a className="text-slate-300 hover:text-white" href="#">Twitter</a>
+                            <a className="text-slate-300 hover:text-white" href="#">Instagram</a>
+                            <a className="text-slate-300 hover:text-white" href="#">GitHub</a>
+                        </div>
+                    </div>
+                    <div className="text-center text-slate-500 text-xs mt-6">© {new Date().getFullYear()} TuRuta. Todos los derechos reservados.</div>
+                </div>
+            </footer>
+
         </div>
     );
 }
