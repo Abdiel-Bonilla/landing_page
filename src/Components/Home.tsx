@@ -5,7 +5,14 @@ export function Home() {
             {/* ========================================== */}
             {/* 🚀 SECCIÓN HERO                            */}
             {/* ========================================== */}
-            <header className="relative overflow-hidden min-h-screen flex items-center justify-center pt-16">
+            <header
+                className="relative overflow-hidden min-h-screen flex items-center justify-center pt-16"
+                style={{
+                    backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                }}
+            >
                 {/* Efecto de luces de fondo (Glow) */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none opacity-20">
                     <div className="absolute -top-40 left-1/4 w-96 h-96 bg-indigo-500 rounded-full blur-[128px]"></div>
