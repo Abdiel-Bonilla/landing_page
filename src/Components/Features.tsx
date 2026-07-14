@@ -4,10 +4,10 @@ export default function Features() {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight text-white">
-            Tu viaje, potenciado por la tecnología
+            Tu viaje, pensado para ti
           </h2>
           <p className="text-slate-400 text-lg">
-            Unimos los mejores destinos del planeta con algoritmos de optimización para ofrecerte una experiencia fluida y sin fricciones.
+            Reunimos los mejores destinos y recomendaciones para que vivas experiencias memorables sin complicaciones.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function Features() {
               </p>
             </div>
             <div className="pt-4 border-t border-slate-800/60 text-xs font-semibold tracking-wider text-indigo-400 uppercase">
-              ⚡ Filtros avanzados por IA
+              ⚡ Filtros personalizados
             </div>
           </div>
 
@@ -40,7 +40,7 @@ export default function Features() {
               </p>
             </div>
             <div className="pt-4 border-t border-slate-800/60 text-xs font-semibold tracking-wider text-emerald-400 uppercase">
-              ⚡ Cálculo en tiempo real
+              ⚡ Información actualizada
             </div>
           </div>
 
@@ -50,9 +50,9 @@ export default function Features() {
               <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 font-bold text-xl mb-6 group-hover:bg-amber-600 group-hover:text-white transition-all duration-300">
                 📱
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">Tecnología Offline</h3>
+              <h3 className="text-xl font-bold mb-3 text-white">Funcionalidad Offline</h3>
               <p className="text-slate-400 leading-relaxed mb-6">
-                Sincronización total y alertas meteorológicas. Algoritmos de IA locales que funcionan sin gastar tus datos móviles ni devorar tu batería.
+                Sincronización total y alertas meteorológicas. Funciones locales que funcionan sin gastar tus datos móviles ni devorar tu batería.
               </p>
             </div>
             <div className="pt-4 border-t border-slate-800/60 text-xs font-semibold tracking-wider text-amber-400 uppercase">

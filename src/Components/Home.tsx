@@ -35,7 +35,7 @@ export function Home() {
 
                     {/* Subtítulo */}
                     <p className="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto mb-10 leading-relaxed">
-                        Rutas inteligentes diseñadas por expertos y optimizadas con inteligencia artificial para tus lugares favoritos. Sin perder tiempo, sin perderte nada.
+                        Rutas diseñadas por expertos para que disfrutes de tus lugares favoritos. Planes prácticos y fáciles de seguir, sin complicaciones.
                     </p>
 
                     {/* Acciones (CTA) */}
@@ -44,7 +44,7 @@ export function Home() {
                             Empezar mi Ruta Gratis
                         </a>
                         <a href="#tecnologias" className="w-full sm:w-auto px-8 py-4 bg-slate-900/90 hover:bg-slate-800 text-slate-100 font-semibold rounded-xl border border-slate-800/60 transition-all duration-200 text-center backdrop-blur-sm">
-                            Ver Tecnologías ⚡
+                            Ver Servicios ⚡
                         </a>
                     </div>
                 </div>
@@ -55,16 +55,14 @@ export function Home() {
                 </svg>
             </header>
 
-            {/* ========================================== */}
-            {/* 🗺️ SECCIÓN CARACTERÍSTICAS                 */}
-            {/* ========================================== */}
+
             <section id="caracteristicas" className="py-24 relative z-20">
                 <div className="container mx-auto px-6">
                     
                     {/* Encabezado de la Sección */}
                     <div className="text-center max-w-3xl mx-auto mb-20">
                         <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight text-white">
-                            Tu viaje, potenciado por la tecnología
+                            Tu viaje,
                         </h2>
                         <p className="text-slate-400 text-lg">
                             Unimos los mejores destinos del planeta con algoritmos de optimización para ofrecerte una experiencia fluida y sin fricciones.
@@ -86,8 +84,8 @@ export function Home() {
                                 </p>
                             </div>
                             <div className="pt-4 border-t border-slate-800/60 text-xs font-semibold tracking-wider text-indigo-400 uppercase">
-                                ⚡ Filtros avanzados por IA
-                            </div>
+                                    ⚡ Filtros personalizados
+                                </div>
                         </div>
 
                         {/* Tarjeta 2: Rutas Inteligentes */}
@@ -102,7 +100,7 @@ export function Home() {
                                 </p>
                             </div>
                             <div className="pt-4 border-t border-slate-800/60 text-xs font-semibold tracking-wider text-emerald-400 uppercase">
-                                ⚡ Cálculo en tiempo real
+                                ⚡ Información actualizada
                             </div>
                         </div>
 
