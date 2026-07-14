@@ -13,6 +13,8 @@ export function Home() {
                     backgroundPosition: 'center',
                 }}
             >
+                {/* Overlay oscuro para mejorar contraste */}
+                <div className="absolute inset-0 bg-black/50 backdrop-blur-sm pointer-events-none"></div>
                 {/* Efecto de luces de fondo (Glow) */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none opacity-20">
                     <div className="absolute -top-40 left-1/4 w-96 h-96 bg-indigo-500 rounded-full blur-[128px]"></div>
@@ -27,21 +29,21 @@ export function Home() {
                     </span>
 
                     {/* Título Principal */}
-                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 mb-6">
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white drop-shadow-xl mb-6">
                         Explora el mundo a tu <br className="hidden md:inline" /> propio ritmo e inteligencia.
                     </h1>
 
                     {/* Subtítulo */}
-                    <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                    <p className="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto mb-10 leading-relaxed">
                         Rutas inteligentes diseñadas por expertos y optimizadas con inteligencia artificial para tus lugares favoritos. Sin perder tiempo, sin perderte nada.
                     </p>
 
                     {/* Acciones (CTA) */}
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <a href="#caracteristicas" className="w-full sm:w-auto px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl shadow-lg shadow-indigo-600/30 transition-all duration-200 transform hover:-translate-y-0.5 text-center">
+                        <a href="#caracteristicas" className="w-full sm:w-auto px-8 py-4 bg-indigo-600/95 hover:bg-indigo-500 text-white font-semibold rounded-xl shadow-2xl transition-all duration-200 transform hover:-translate-y-0.5 text-center ring-1 ring-indigo-700/40">
                             Empezar mi Ruta Gratis
                         </a>
-                        <a href="#tecnologias" className="w-full sm:w-auto px-8 py-4 bg-slate-900 hover:bg-slate-800 text-slate-300 font-semibold rounded-xl border border-slate-800 transition-all duration-200 text-center">
+                        <a href="#tecnologias" className="w-full sm:w-auto px-8 py-4 bg-slate-900/90 hover:bg-slate-800 text-slate-100 font-semibold rounded-xl border border-slate-800/60 transition-all duration-200 text-center backdrop-blur-sm">
                             Ver Tecnologías ⚡
                         </a>
                     </div>
